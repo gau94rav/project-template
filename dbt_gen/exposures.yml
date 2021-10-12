@@ -196,8 +196,8 @@ exposures:
         email: kanav@hashpath.com
     depends_on:
       - ref('year_filter')
-      - ref('department_search_filter')
       - ref('exclude_marketing_toggle')
+      - ref('department_search_filter')
       - ref('base_finance_table')
       - ref('seed_financial_data')
 
