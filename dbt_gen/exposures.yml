@@ -68,8 +68,13 @@ exposures:
     owner: 
         email: kanav@hashpath.com
     depends_on:
+<<<<<<< HEAD
       - ref('team_name_filter')
       - ref('season_filter')
+=======
+      - ref('season_filter')
+      - ref('team_name_filter')
+>>>>>>> 24c4ca4f2858539ae0a49d32bea62b7cd3c75749
       - ref('line_attendance')
       - ref('team_games_base')
 
@@ -79,8 +84,13 @@ exposures:
     owner: 
         email: kanav@hashpath.com
     depends_on:
+<<<<<<< HEAD
       - ref('team_name_filter')
       - ref('season_filter')
+=======
+      - ref('season_filter')
+      - ref('team_name_filter')
+>>>>>>> 24c4ca4f2858539ae0a49d32bea62b7cd3c75749
       - ref('num_free_throws')
       - ref('team_games_base')
 
@@ -90,8 +100,13 @@ exposures:
     owner: 
         email: kanav@hashpath.com
     depends_on:
+<<<<<<< HEAD
       - ref('team_name_filter')
       - ref('season_filter')
+=======
+      - ref('season_filter')
+      - ref('team_name_filter')
+>>>>>>> 24c4ca4f2858539ae0a49d32bea62b7cd3c75749
       - ref('num_three_points')
       - ref('team_games_base')
 
@@ -101,8 +116,13 @@ exposures:
     owner: 
         email: kanav@hashpath.com
     depends_on:
+<<<<<<< HEAD
       - ref('team_name_filter')
       - ref('season_filter')
+=======
+      - ref('season_filter')
+      - ref('team_name_filter')
+>>>>>>> 24c4ca4f2858539ae0a49d32bea62b7cd3c75749
       - ref('num_total_loses')
       - ref('team_games_base')
 
@@ -112,8 +132,13 @@ exposures:
     owner: 
         email: kanav@hashpath.com
     depends_on:
+<<<<<<< HEAD
       - ref('team_name_filter')
       - ref('season_filter')
+=======
+      - ref('season_filter')
+      - ref('team_name_filter')
+>>>>>>> 24c4ca4f2858539ae0a49d32bea62b7cd3c75749
       - ref('num_total_wins')
       - ref('team_games_base')
 
